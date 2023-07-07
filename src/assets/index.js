@@ -28,7 +28,7 @@ import retailwagon from "./company/retailwagon.png";
 import freelancer from "./company/freelancer.png";
 
 //projects
-import hoobank from "./hoobank.png";
+import hoobank from "./hooBank.png";
 import backroads from "./backroads.png";
 import ecommerce from "./ecommerce.png";
 
