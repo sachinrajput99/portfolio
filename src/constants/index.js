@@ -21,6 +21,8 @@ import {
   hoobank,
   backroads,
   ecommerce,
+  unsplash,
+  mixmaster,
 } from "../assets";
 
 export const navLinks = [
@@ -200,6 +202,44 @@ const projects = [
     ],
     image: backroads,
     source_code_link: "https://tourplann.netlify.app",
+  },
+  {
+    name: "Unsplash Image generator",
+    description:
+      " Search the images from unsplash and change the site's theme according to browser's selected theme",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "unsplash Api",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: unsplash,
+    source_code_link: "https://unspashimage113.netlify.app",
+  },
+  {
+    name: "MixMaster",
+    description: " search the cocktails and their recipes ",
+    tags: [
+      {
+        name: "reactjs #react-router ",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "cocktailDb api #react-query",
+        color: "green-text-gradient",
+      },
+      {
+        name: "styled component",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: mixmaster,
+    // source_code_link: "https://github.com/",
   },
   {
     name: "ecommerce site",

@@ -31,7 +31,8 @@ import freelancer from "./company/freelancer.png";
 import hoobank from "./hooBank.png";
 import backroads from "./backroads.png";
 import ecommerce from "./ecommerce.png";
-
+import unsplash from "./unsplash.png";
+import mixmaster from "./mixmaster.png";
 export {
   logo,
   github,
@@ -59,4 +60,6 @@ export {
   hoobank,
   backroads,
   ecommerce,
+  unsplash,
+  mixmaster,
 };
