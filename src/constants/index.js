@@ -93,10 +93,11 @@ const technologies = [
     icon: nextjs,
   },
   //////////////////////////////////////////////////////////
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
+  // change made here
+  // {
+  //   name: "MongoDB",
+  //   icon: mongodb,
+  // },
   {
     name: "Three JS",
     icon: threejs,
@@ -105,10 +106,10 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
 ];
 
 const experiences = [
@@ -239,15 +240,17 @@ const projects = [
       },
     ],
     image: mixmaster,
-    // source_code_link: "https://github.com/",
+    // source_code_link: "https://mixmaster113.netlify.app/",
+    //made change here
+    source_code_link: "https://mixmaster113.netlify.app/",
   },
   {
-    name: "ecommerce site",
+    name: "E-commerce site",
     description:
       "  E-Commerce Project, where I'm building a online store named Comfy Sloth. In this web application we can filter the products, add them to cart , pay online for the product  and order them  ",
     tags: [
       {
-        name: "reactjs",
+        name: "react-js",
         color: "blue-text-gradient",
       },
       {
