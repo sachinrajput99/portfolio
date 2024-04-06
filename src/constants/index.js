@@ -6,9 +6,7 @@ import {
   reactjs,
   redux,
   tailwind,
-  mongodb,
   git,
-  figma,
   threejs,
   //
   nextjsimg,
@@ -263,7 +261,7 @@ const projects = [
       },
     ],
     image: ecommerce,
-    // source_code_link: "https://github.com/",
+    source_code_link: "https://e-comfy113.netlify.app/",
   },
 ];
 
