@@ -33,6 +33,9 @@ import backroads from "./backroads.png";
 import ecommerce from "./ecommerce.png";
 import unsplash from "./unsplash.png";
 import mixmaster from "./mixmaster.png";
+import bankistapp from "./bankistapp.png";
+import mapty from "./mapty.png";
+import bankist2 from "./bankist2.png";
 export {
   logo,
   github,
@@ -62,4 +65,7 @@ export {
   ecommerce,
   unsplash,
   mixmaster,
+  bankistapp,
+  mapty,
+  bankist2
 };

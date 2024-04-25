@@ -7,12 +7,12 @@ import {
   redux,
   tailwind,
   git,
-  threejs,
+  // threejs,
   //
   nextjsimg,
   retailwagon,
-  freelancer,
-  nextjs,
+  // freelancer,
+  // nextjs,
   reactlogo,
   tailwindlogo,
   htmlcssjslogo,
@@ -21,6 +21,9 @@ import {
   ecommerce,
   unsplash,
   mixmaster,
+  bankistapp,
+  mapty,
+  bankist2,
 } from "../assets";
 
 export const navLinks = [
@@ -86,20 +89,20 @@ const technologies = [
     name: "Tailwind CSS",
     icon: tailwind,
   },
-  {
-    name: "Next.js",
-    icon: nextjs,
-  },
+  // {
+  //   name: "Next.js",
+  //   icon: nextjs,
+  // },
   //////////////////////////////////////////////////////////
   // change made here
   // {
   //   name: "MongoDB",
   //   icon: mongodb,
   // },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
   {
     name: "git",
     icon: git,
@@ -124,18 +127,18 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  {
-    title: "Next.JS Developer",
-    company_name: "Freelancer",
-    icon: freelancer,
-    iconBg: "#E6DEDD",
-    date: "April 2023 - Now",
-    points: [
-      "Developing and maintaining web applications using Next.js and other related technologies.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "  Learning new technologies",
-    ],
-  },
+  // {
+  //   title: "Next.JS Developer",
+  //   company_name: "Freelancer",
+  //   icon: freelancer,
+  //   iconBg: "#E6DEDD",
+  //   date: "April 2023 - Now",
+  //   points: [
+  //     "Developing and maintaining web applications using Next.js and other related technologies.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "  Learning new technologies",
+  //   ],
+  // },
 ];
 
 const testimonials = [
@@ -262,6 +265,72 @@ const projects = [
     ],
     image: ecommerce,
     source_code_link: "https://e-comfy113.netlify.app/",
+  },
+  {
+    name: "Bankist app ",
+    description:
+      " This is banking app where we can make transaction from one account to another account and request loan from another account and we can even close the account ",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: bankistapp,
+    source_code_link: "https://bankist-app113.netlify.app/",
+  },
+  {
+    name: "mapty app ",
+    description:'Developed a dynamic workout tracking application Users can     mark their workout locations and record duration, providing a    personalized exercise log',
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript object oriented programming",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Leaflet library",
+        color: "orange-text-gradient ",
+      },
+    ],
+    image: mapty,
+    source_code_link: "https://maptyapp113.netlify.app/",
+  },
+  {
+    name: "bankist marketing app ",
+    description:"This is the marketing website of our bankist app.l have used    javascript advance DOM manipulation, lazy loading concept in    making this site",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript- advance Dom manipulation",
+        color: "pink-text-gradient",
+      },
+      
+    ],
+    image: bankist2,
+    source_code_link: " https://newbankist-app113.netlify.app/",
   },
 ];
 
