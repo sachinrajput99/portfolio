@@ -170,6 +170,67 @@ const testimonials = [
 
 const projects = [
   {
+    name: "E-commerce site",
+    description:
+      "  E-Commerce Project, where I'm building a online store named Comfy Sloth. In this web application we can filter the products, add them to cart , pay online for the product  and order them  ",
+    tags: [
+      {
+        name: "react-js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "OAuth",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ecommerce,
+    source_code_link: "https://e-comfy113.netlify.app/",
+  },
+  {
+    name: "MixMaster",
+    description: " search the cocktails and their recipes ",
+    tags: [
+      {
+        name: "reactjs #react-router ",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "cocktailDb api #react-query",
+        color: "green-text-gradient",
+      },
+      {
+        name: "styled component",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: mixmaster,
+    // source_code_link: "https://mixmaster113.netlify.app/",
+    //made change here
+    source_code_link: "https://mixmaster113.netlify.app/",
+  }, 
+   {
+    name: "Unsplash Image generator",
+    description:
+      " Search the images from unsplash and change the site's theme according to browser's selected theme",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "unsplash Api",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: unsplash,
+    source_code_link: "https://unspashimage113.netlify.app",
+  },
+  {
     name: "Banking UI/UX",
     description:
       " HooBank is the best business landing page. Fully Responsive modern UI/UX website in Reactjs and Tailwind CSS.",
@@ -206,65 +267,50 @@ const projects = [
     source_code_link: "https://tourplann.netlify.app",
   },
   {
-    name: "Unsplash Image generator",
-    description:
-      " Search the images from unsplash and change the site's theme according to browser's selected theme",
+    name: "mapty app ",
+    description:'Developed a dynamic workout tracking application Users can     mark their workout locations and record duration, providing a    personalized exercise log',
     tags: [
       {
-        name: "react",
+        name: "html",
         color: "blue-text-gradient",
-      },
-
-      {
-        name: "unsplash Api",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: unsplash,
-    source_code_link: "https://unspashimage113.netlify.app",
-  },
-  {
-    name: "MixMaster",
-    description: " search the cocktails and their recipes ",
-    tags: [
-      {
-        name: "reactjs #react-router ",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "cocktailDb api #react-query",
-        color: "green-text-gradient",
-      },
-      {
-        name: "styled component",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: mixmaster,
-    // source_code_link: "https://mixmaster113.netlify.app/",
-    //made change here
-    source_code_link: "https://mixmaster113.netlify.app/",
-  },
-  {
-    name: "E-commerce site",
-    description:
-      "  E-Commerce Project, where I'm building a online store named Comfy Sloth. In this web application we can filter the products, add them to cart , pay online for the product  and order them  ",
-    tags: [
-      {
-        name: "react-js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "OAuth",
-        color: "green-text-gradient",
       },
       {
         name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript OOPS",
         color: "pink-text-gradient",
       },
+      {
+        name: "Leaflet library",
+        color: "orange-text-gradient ",
+      },
     ],
-    image: ecommerce,
-    source_code_link: "https://e-comfy113.netlify.app/",
+    image: mapty,
+    source_code_link: "https://maptyapp113.netlify.app/",
+  },
+  
+  {
+    name: "bankist marketing app ",
+    description:"This is the marketing website of our bankist app.l have used    javascript advance DOM manipulation, lazy loading concept in    making this site",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript- advance Dom manipulation",
+        color: "pink-text-gradient",
+      },
+      
+    ],
+    image: bankist2,
+    source_code_link: " https://newbankist-app113.netlify.app/",
   },
   {
     name: "Bankist app ",
@@ -287,51 +333,7 @@ const projects = [
     image: bankistapp,
     source_code_link: "https://bankist-app113.netlify.app/",
   },
-  {
-    name: "mapty app ",
-    description:'Developed a dynamic workout tracking application Users can     mark their workout locations and record duration, providing a    personalized exercise log',
-    tags: [
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "green-text-gradient",
-      },
-      {
-        name: "javascript object oriented programming",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Leaflet library",
-        color: "orange-text-gradient ",
-      },
-    ],
-    image: mapty,
-    source_code_link: "https://maptyapp113.netlify.app/",
-  },
-  {
-    name: "bankist marketing app ",
-    description:"This is the marketing website of our bankist app.l have used    javascript advance DOM manipulation, lazy loading concept in    making this site",
-    tags: [
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "green-text-gradient",
-      },
-      {
-        name: "javascript- advance Dom manipulation",
-        color: "pink-text-gradient",
-      },
-      
-    ],
-    image: bankist2,
-    source_code_link: " https://newbankist-app113.netlify.app/",
-  },
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects };
